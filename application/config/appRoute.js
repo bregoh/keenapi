@@ -48,8 +48,8 @@ router.use((req, res, next) => {
  * @description all routes should be added here
  */
 
-router.get("/test", (req, res) => {
-  res.status(200).send("Hello world");
+router.get("/", (req, res) => {
+  res.status(200).send("Welcome to KEEN API");
 });
 
 router.get("/migrate", migration.start);

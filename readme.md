@@ -17,6 +17,7 @@ This a basic API which adds Authors and Book information. Every book is linked t
 - MongoDB_DATABASE
 - NODE_ENV
 - run the app `npm start` || `nodemon start`
+- run the migration to add database collections <yoururl>/migrate
 
 # Docker installation
 
@@ -30,6 +31,7 @@ This a basic API which adds Authors and Book information. Every book is linked t
 - Pull the image `docker pull bregoh/keenapi:ke2020`
 - Build the image `docker build -t bregoh/keenapi:ke2020`
 - Run the docker container `docker run -it --rm -d --network mongodb -p 4001:4001 -d bregoh/keenapi:ke2020`
+- Run the migration to add database collections <yoururl>/migrate
 
 # Entry Point on heroku
 
