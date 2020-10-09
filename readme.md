@@ -33,3 +33,7 @@ set environmental variables
 # Entry Point on heroku
 
 [Entry](http://test.bregoh.com)
+
+# API Documentation
+
+[Docs](http://test.bregoh.com/docs)
