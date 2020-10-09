@@ -4,18 +4,19 @@ This a basic API which adds Authors and Book information. Every book is linked t
 
 # Usage
 
-`git pull`
-or
-`git clone`
-then
-`npm install`
-set environmental variables
+- `git pull`
+  or
+- `git clone`
+  then
+- `npm install`
+
+# Set environmental variables
 
 - MONGO_URI
 - JWT_SK
 - MongoDB_DATABASE
 - NODE_ENV
-  run the app `npm start` || `nodemon start`
+- run the app `npm start` || `nodemon start`
 
 # Docker installation
 
