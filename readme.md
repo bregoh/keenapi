@@ -10,7 +10,7 @@ This a basic API which adds Authors and Book information. Every book is linked t
   then
 - `npm install`
 
-# Set environmental variables
+# Set environment variables
 
 - MONGO_URI
 - JWT_SK
