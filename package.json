@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "jsDoc": "jsdoc -c jsDoc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "E. Bright",
@@ -26,5 +27,8 @@
     "socket.io": "^2.3.0",
     "validatorjs": "^3.20.0"
   },
-  "git": "https://github.com/bregoh"
+  "git": "https://github.com/bregoh",
+  "engines": {
+    "node": "14.6.0"
+  }
 }

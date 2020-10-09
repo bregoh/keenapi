@@ -1,7 +1,6 @@
 "use strict";
 
 /**
- * @module Geolocation
  * @class Geolocation
  * @description Handles geolocation for every IP that accessed the API
  * @author E. Bright

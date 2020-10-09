@@ -1,5 +1,4 @@
 /**
- * @module cache
  * @class Cache
  * @description temporarily stores the data for quick access
  * @author E. Bright

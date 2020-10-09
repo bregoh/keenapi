@@ -1,4 +1,16 @@
 "use strict";
+/**
+ * @class Migration
+ * @description Create collection for MongoDB
+ * @author E. Bright
+ * @copyright NUGRESS GK
+ * @license MIT
+ * @version 1.8.0
+ * @requires mysql
+ * @requires dotenv
+ * @requires appConfig
+ * @exports DB
+ */
 
 const mdb = require("./MongoDB");
 

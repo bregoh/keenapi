@@ -1,5 +1,4 @@
 /**
- * @module CoreRouter
  * @class CoreRouter
  * @description Handles every request on the App
  * @author E. Bright
@@ -18,9 +17,9 @@ const ErrorHandler = require("./ErrorHandler");
 class CoreRouter {
   /**
    * @function init
+   * @description Initialize the router to receive and dispatch requests
    * @param none
    * @returns none
-   * @description Initialize the router to receive and dispatch requests
    */
   init = () => {
     /**

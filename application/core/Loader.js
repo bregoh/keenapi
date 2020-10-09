@@ -1,5 +1,4 @@
 /**
- * @module Loader
  * @class Loader
  * @description Load Classes dynamically with just the class name
  * @author E. Bright
@@ -14,9 +13,9 @@
 class Loader {
   /**
    * @function loadClass
-   * @param {String} classname
-   * @returns @instance of any available class
    * @description get a valid class name and returns an instance of it
+   * @param {String} classname
+   * @returns {ObjectConstructor} of any available class
    */
   loadClass(classname) {
     if (classname === "") {
